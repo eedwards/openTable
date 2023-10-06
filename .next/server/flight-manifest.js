@@ -1,48 +1,157 @@
 self.__RSC_MANIFEST={
   "__ssr_module_mapping__": {
-    "(app-client)/./node_modules/next/dist/shared/lib/dynamic-no-ssr.js": {
+    "(app-client)/./public/icons/empty-star.png": {
       "": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/dynamic-no-ssr.js",
+        "id": "(sc_client)/./public/icons/empty-star.png",
         "name": "",
         "chunks": [
-          "webpack:webpack",
-          "main-app:main-app"
+          "app/page:app/page"
         ],
         "async": false
       },
       "*": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/dynamic-no-ssr.js",
+        "id": "(sc_client)/./public/icons/empty-star.png",
         "name": "*",
         "chunks": [
-          "webpack:webpack",
-          "main-app:main-app"
+          "app/page:app/page"
         ],
         "async": false
       },
-      "NoSSR": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/dynamic-no-ssr.js",
-        "name": "NoSSR",
+      "default": {
+        "id": "(sc_client)/./public/icons/empty-star.png",
+        "name": "default",
         "chunks": [
-          "webpack:webpack",
-          "main-app:main-app"
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./public/icons/full-star.png": {
+      "": {
+        "id": "(sc_client)/./public/icons/full-star.png",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
         ],
         "async": false
       },
-      "__esModule": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/dynamic-no-ssr.js",
-        "name": "__esModule",
+      "*": {
+        "id": "(sc_client)/./public/icons/full-star.png",
+        "name": "*",
         "chunks": [
-          "webpack:webpack",
-          "main-app:main-app"
+          "app/page:app/page"
         ],
         "async": false
       },
-      "suspense": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/dynamic-no-ssr.js",
-        "name": "suspense",
+      "default": {
+        "id": "(sc_client)/./public/icons/full-star.png",
+        "name": "default",
         "chunks": [
-          "webpack:webpack",
-          "main-app:main-app"
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./public/icons/half-star.png": {
+      "": {
+        "id": "(sc_client)/./public/icons/half-star.png",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./public/icons/half-star.png",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/icons/half-star.png",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/components/SearchBar.tsx": {
+      "": {
+        "id": "(sc_client)/./app/components/SearchBar.tsx",
+        "name": "",
+        "chunks": [
+          "app/loading:app/loading"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./app/components/SearchBar.tsx",
+        "name": "*",
+        "chunks": [
+          "app/loading:app/loading"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/components/SearchBar.tsx",
+        "name": "default",
+        "chunks": [
+          "app/loading:app/loading"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/image.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "default",
+        "chunks": [
+          "app/layout:app/layout"
         ],
         "async": false
       }
@@ -103,136 +212,6 @@ self.__RSC_MANIFEST={
         "name": "default",
         "chunks": [
           "app/layout:app/layout"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "*",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "default",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./app/components/SearchBar.tsx": {
-      "": {
-        "id": "(sc_client)/./app/components/SearchBar.tsx",
-        "name": "",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./app/components/SearchBar.tsx",
-        "name": "*",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/components/SearchBar.tsx",
-        "name": "default",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./app/user-profile/[id]/components/BookingCard.tsx": {
-      "": {
-        "id": "(sc_client)/./app/user-profile/[id]/components/BookingCard.tsx",
-        "name": "",
-        "chunks": [
-          "app/user-profile/[id]/page:app/user-profile/[id]/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./app/user-profile/[id]/components/BookingCard.tsx",
-        "name": "*",
-        "chunks": [
-          "app/user-profile/[id]/page:app/user-profile/[id]/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/user-profile/[id]/components/BookingCard.tsx",
-        "name": "default",
-        "chunks": [
-          "app/user-profile/[id]/page:app/user-profile/[id]/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./app/user-profile/[id]/components/ReviewCard.tsx": {
-      "": {
-        "id": "(sc_client)/./app/user-profile/[id]/components/ReviewCard.tsx",
-        "name": "",
-        "chunks": [
-          "app/user-profile/[id]/page:app/user-profile/[id]/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./app/user-profile/[id]/components/ReviewCard.tsx",
-        "name": "*",
-        "chunks": [
-          "app/user-profile/[id]/page:app/user-profile/[id]/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/user-profile/[id]/components/ReviewCard.tsx",
-        "name": "default",
-        "chunks": [
-          "app/user-profile/[id]/page:app/user-profile/[id]/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./app/user-profile/[id]/components/UserInfo.tsx": {
-      "": {
-        "id": "(sc_client)/./app/user-profile/[id]/components/UserInfo.tsx",
-        "name": "",
-        "chunks": [
-          "app/user-profile/[id]/page:app/user-profile/[id]/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./app/user-profile/[id]/components/UserInfo.tsx",
-        "name": "*",
-        "chunks": [
-          "app/user-profile/[id]/page:app/user-profile/[id]/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/user-profile/[id]/components/UserInfo.tsx",
-        "name": "default",
-        "chunks": [
-          "app/user-profile/[id]/page:app/user-profile/[id]/page"
         ],
         "async": false
       }
@@ -340,110 +319,6 @@ self.__RSC_MANIFEST={
         ],
         "async": false
       }
-    },
-    "(app-client)/./public/icons/empty-star.png": {
-      "": {
-        "id": "(sc_client)/./public/icons/empty-star.png",
-        "name": "",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./public/icons/empty-star.png",
-        "name": "*",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/icons/empty-star.png",
-        "name": "default",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/icons/full-star.png": {
-      "": {
-        "id": "(sc_client)/./public/icons/full-star.png",
-        "name": "",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./public/icons/full-star.png",
-        "name": "*",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/icons/full-star.png",
-        "name": "default",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/icons/half-star.png": {
-      "": {
-        "id": "(sc_client)/./public/icons/half-star.png",
-        "name": "",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./public/icons/half-star.png",
-        "name": "*",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/icons/half-star.png",
-        "name": "default",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/image.js": {
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "*",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "default",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      }
     }
   },
   "__edge_ssr_module_mapping__": {},
@@ -453,468 +328,210 @@ self.__RSC_MANIFEST={
       "static/css/_app-client_app_globals_css.css"
     ]
   },
-  "/Users/eric/Desktop/codebase/OpenTableClone/node_modules/next/dist/shared/lib/app-router-context.js": {
+  "/Users/eric/Desktop/codebase/OpenTableClone/public/icons/empty-star.png": {
     "": {
-      "id": "./node_modules/next/dist/shared/lib/app-router-context.js",
+      "id": "(app-client)/./public/icons/empty-star.png",
       "name": "",
       "chunks": [
-        "webpack:webpack",
-        "main:main"
+        "app/page:app/page"
       ],
       "async": false
     },
     "*": {
-      "id": "./node_modules/next/dist/shared/lib/app-router-context.js",
+      "id": "(app-client)/./public/icons/empty-star.png",
       "name": "*",
       "chunks": [
-        "webpack:webpack",
-        "main:main"
+        "app/page:app/page"
       ],
       "async": false
     },
-    "AppRouterContext": {
-      "id": "./node_modules/next/dist/shared/lib/app-router-context.js",
-      "name": "AppRouterContext",
+    "default": {
+      "id": "(app-client)/./public/icons/empty-star.png",
+      "name": "default",
       "chunks": [
-        "webpack:webpack",
-        "main:main"
-      ],
-      "async": false
-    },
-    "CacheStates": {
-      "id": "./node_modules/next/dist/shared/lib/app-router-context.js",
-      "name": "CacheStates",
-      "chunks": [
-        "webpack:webpack",
-        "main:main"
-      ],
-      "async": false
-    },
-    "GlobalLayoutRouterContext": {
-      "id": "./node_modules/next/dist/shared/lib/app-router-context.js",
-      "name": "GlobalLayoutRouterContext",
-      "chunks": [
-        "webpack:webpack",
-        "main:main"
-      ],
-      "async": false
-    },
-    "LayoutRouterContext": {
-      "id": "./node_modules/next/dist/shared/lib/app-router-context.js",
-      "name": "LayoutRouterContext",
-      "chunks": [
-        "webpack:webpack",
-        "main:main"
-      ],
-      "async": false
-    },
-    "TemplateContext": {
-      "id": "./node_modules/next/dist/shared/lib/app-router-context.js",
-      "name": "TemplateContext",
-      "chunks": [
-        "webpack:webpack",
-        "main:main"
-      ],
-      "async": false
-    },
-    "__esModule": {
-      "id": "./node_modules/next/dist/shared/lib/app-router-context.js",
-      "name": "__esModule",
-      "chunks": [
-        "webpack:webpack",
-        "main:main"
+        "app/page:app/page"
       ],
       "async": false
     }
   },
-  "/Users/eric/Desktop/codebase/OpenTableClone/node_modules/next/dist/esm/shared/lib/app-router-context.js": {
+  "/Users/eric/Desktop/codebase/OpenTableClone/public/icons/full-star.png": {
     "": {
-      "id": "./node_modules/next/dist/shared/lib/app-router-context.js",
+      "id": "(app-client)/./public/icons/full-star.png",
       "name": "",
       "chunks": [
-        "webpack:webpack",
-        "main:main"
+        "app/page:app/page"
       ],
       "async": false
     },
     "*": {
-      "id": "./node_modules/next/dist/shared/lib/app-router-context.js",
+      "id": "(app-client)/./public/icons/full-star.png",
       "name": "*",
       "chunks": [
-        "webpack:webpack",
-        "main:main"
+        "app/page:app/page"
       ],
       "async": false
     },
-    "AppRouterContext": {
-      "id": "./node_modules/next/dist/shared/lib/app-router-context.js",
-      "name": "AppRouterContext",
+    "default": {
+      "id": "(app-client)/./public/icons/full-star.png",
+      "name": "default",
       "chunks": [
-        "webpack:webpack",
-        "main:main"
-      ],
-      "async": false
-    },
-    "CacheStates": {
-      "id": "./node_modules/next/dist/shared/lib/app-router-context.js",
-      "name": "CacheStates",
-      "chunks": [
-        "webpack:webpack",
-        "main:main"
-      ],
-      "async": false
-    },
-    "GlobalLayoutRouterContext": {
-      "id": "./node_modules/next/dist/shared/lib/app-router-context.js",
-      "name": "GlobalLayoutRouterContext",
-      "chunks": [
-        "webpack:webpack",
-        "main:main"
-      ],
-      "async": false
-    },
-    "LayoutRouterContext": {
-      "id": "./node_modules/next/dist/shared/lib/app-router-context.js",
-      "name": "LayoutRouterContext",
-      "chunks": [
-        "webpack:webpack",
-        "main:main"
-      ],
-      "async": false
-    },
-    "TemplateContext": {
-      "id": "./node_modules/next/dist/shared/lib/app-router-context.js",
-      "name": "TemplateContext",
-      "chunks": [
-        "webpack:webpack",
-        "main:main"
-      ],
-      "async": false
-    },
-    "__esModule": {
-      "id": "./node_modules/next/dist/shared/lib/app-router-context.js",
-      "name": "__esModule",
-      "chunks": [
-        "webpack:webpack",
-        "main:main"
+        "app/page:app/page"
       ],
       "async": false
     }
   },
-  "/Users/eric/Desktop/codebase/OpenTableClone/node_modules/next/dist/shared/lib/hooks-client-context.js": {
+  "/Users/eric/Desktop/codebase/OpenTableClone/public/icons/half-star.png": {
     "": {
-      "id": "./node_modules/next/dist/shared/lib/hooks-client-context.js",
+      "id": "(app-client)/./public/icons/half-star.png",
       "name": "",
       "chunks": [
-        "webpack:webpack",
-        "main:main"
+        "app/page:app/page"
       ],
       "async": false
     },
     "*": {
-      "id": "./node_modules/next/dist/shared/lib/hooks-client-context.js",
+      "id": "(app-client)/./public/icons/half-star.png",
       "name": "*",
       "chunks": [
-        "webpack:webpack",
-        "main:main"
+        "app/page:app/page"
       ],
       "async": false
     },
-    "LayoutSegmentsContext": {
-      "id": "./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "LayoutSegmentsContext",
+    "default": {
+      "id": "(app-client)/./public/icons/half-star.png",
+      "name": "default",
       "chunks": [
-        "webpack:webpack",
-        "main:main"
-      ],
-      "async": false
-    },
-    "ParamsContext": {
-      "id": "./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "ParamsContext",
-      "chunks": [
-        "webpack:webpack",
-        "main:main"
-      ],
-      "async": false
-    },
-    "PathnameContext": {
-      "id": "./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "PathnameContext",
-      "chunks": [
-        "webpack:webpack",
-        "main:main"
-      ],
-      "async": false
-    },
-    "SearchParamsContext": {
-      "id": "./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "SearchParamsContext",
-      "chunks": [
-        "webpack:webpack",
-        "main:main"
-      ],
-      "async": false
-    },
-    "__esModule": {
-      "id": "./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "__esModule",
-      "chunks": [
-        "webpack:webpack",
-        "main:main"
+        "app/page:app/page"
       ],
       "async": false
     }
   },
-  "/Users/eric/Desktop/codebase/OpenTableClone/node_modules/next/dist/esm/shared/lib/hooks-client-context.js": {
+  "/Users/eric/Desktop/codebase/OpenTableClone/app/components/SearchBar.tsx": {
     "": {
-      "id": "./node_modules/next/dist/shared/lib/hooks-client-context.js",
+      "id": "(app-client)/./app/components/SearchBar.tsx",
       "name": "",
       "chunks": [
-        "webpack:webpack",
-        "main:main"
+        "app/loading:app/loading"
       ],
       "async": false
     },
     "*": {
-      "id": "./node_modules/next/dist/shared/lib/hooks-client-context.js",
+      "id": "(app-client)/./app/components/SearchBar.tsx",
       "name": "*",
       "chunks": [
-        "webpack:webpack",
-        "main:main"
+        "app/loading:app/loading"
       ],
       "async": false
     },
-    "LayoutSegmentsContext": {
-      "id": "./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "LayoutSegmentsContext",
+    "default": {
+      "id": "(app-client)/./app/components/SearchBar.tsx",
+      "name": "default",
       "chunks": [
-        "webpack:webpack",
-        "main:main"
-      ],
-      "async": false
-    },
-    "ParamsContext": {
-      "id": "./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "ParamsContext",
-      "chunks": [
-        "webpack:webpack",
-        "main:main"
-      ],
-      "async": false
-    },
-    "PathnameContext": {
-      "id": "./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "PathnameContext",
-      "chunks": [
-        "webpack:webpack",
-        "main:main"
-      ],
-      "async": false
-    },
-    "SearchParamsContext": {
-      "id": "./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "SearchParamsContext",
-      "chunks": [
-        "webpack:webpack",
-        "main:main"
-      ],
-      "async": false
-    },
-    "__esModule": {
-      "id": "./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "__esModule",
-      "chunks": [
-        "webpack:webpack",
-        "main:main"
+        "app/loading:app/loading"
       ],
       "async": false
     }
   },
-  "/Users/eric/Desktop/codebase/OpenTableClone/node_modules/next/dist/shared/lib/dynamic-no-ssr.js": {
+  "/Users/eric/Desktop/codebase/OpenTableClone/node_modules/next/dist/client/image.js": {
     "": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/dynamic-no-ssr.js",
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "webpack:webpack",
-        "main-app:main-app"
+        "app/page:app/page"
       ],
       "async": false
     },
     "*": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/dynamic-no-ssr.js",
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "webpack:webpack",
-        "main-app:main-app"
+        "app/page:app/page"
       ],
       "async": false
     },
-    "NoSSR": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/dynamic-no-ssr.js",
-      "name": "NoSSR",
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
       "chunks": [
-        "webpack:webpack",
-        "main-app:main-app"
-      ],
-      "async": false
-    },
-    "__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/dynamic-no-ssr.js",
-      "name": "__esModule",
-      "chunks": [
-        "webpack:webpack",
-        "main-app:main-app"
-      ],
-      "async": false
-    },
-    "suspense": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/dynamic-no-ssr.js",
-      "name": "suspense",
-      "chunks": [
-        "webpack:webpack",
-        "main-app:main-app"
+        "app/page:app/page"
       ],
       "async": false
     }
   },
-  "/Users/eric/Desktop/codebase/OpenTableClone/node_modules/next/dist/esm/shared/lib/dynamic-no-ssr.js": {
+  "/Users/eric/Desktop/codebase/OpenTableClone/node_modules/next/dist/esm/client/image.js": {
     "": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/dynamic-no-ssr.js",
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "webpack:webpack",
-        "main-app:main-app"
+        "app/page:app/page"
       ],
       "async": false
     },
     "*": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/dynamic-no-ssr.js",
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "webpack:webpack",
-        "main-app:main-app"
+        "app/page:app/page"
       ],
       "async": false
     },
-    "NoSSR": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/dynamic-no-ssr.js",
-      "name": "NoSSR",
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
       "chunks": [
-        "webpack:webpack",
-        "main-app:main-app"
-      ],
-      "async": false
-    },
-    "__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/dynamic-no-ssr.js",
-      "name": "__esModule",
-      "chunks": [
-        "webpack:webpack",
-        "main-app:main-app"
-      ],
-      "async": false
-    },
-    "suspense": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/dynamic-no-ssr.js",
-      "name": "suspense",
-      "chunks": [
-        "webpack:webpack",
-        "main-app:main-app"
+        "app/page:app/page"
       ],
       "async": false
     }
   },
-  "/Users/eric/Desktop/codebase/OpenTableClone/node_modules/next/dist/shared/lib/server-inserted-html.js": {
+  "/Users/eric/Desktop/codebase/OpenTableClone/node_modules/next/dist/client/link.js": {
     "": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "webpack:webpack",
-        "main-app:main-app"
+        "app/layout:app/layout"
       ],
       "async": false
     },
     "*": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "webpack:webpack",
-        "main-app:main-app"
+        "app/layout:app/layout"
       ],
       "async": false
     },
-    "ServerInsertedHTMLContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-      "name": "ServerInsertedHTMLContext",
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
       "chunks": [
-        "webpack:webpack",
-        "main-app:main-app"
-      ],
-      "async": false
-    },
-    "__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-      "name": "__esModule",
-      "chunks": [
-        "webpack:webpack",
-        "main-app:main-app"
-      ],
-      "async": false
-    },
-    "useServerInsertedHTML": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-      "name": "useServerInsertedHTML",
-      "chunks": [
-        "webpack:webpack",
-        "main-app:main-app"
+        "app/layout:app/layout"
       ],
       "async": false
     }
   },
-  "/Users/eric/Desktop/codebase/OpenTableClone/node_modules/next/dist/esm/shared/lib/server-inserted-html.js": {
+  "/Users/eric/Desktop/codebase/OpenTableClone/node_modules/next/dist/esm/client/link.js": {
     "": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "webpack:webpack",
-        "main-app:main-app"
+        "app/layout:app/layout"
       ],
       "async": false
     },
     "*": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "webpack:webpack",
-        "main-app:main-app"
+        "app/layout:app/layout"
       ],
       "async": false
     },
-    "ServerInsertedHTMLContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-      "name": "ServerInsertedHTMLContext",
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
       "chunks": [
-        "webpack:webpack",
-        "main-app:main-app"
-      ],
-      "async": false
-    },
-    "__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-      "name": "__esModule",
-      "chunks": [
-        "webpack:webpack",
-        "main-app:main-app"
-      ],
-      "async": false
-    },
-    "useServerInsertedHTML": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-      "name": "useServerInsertedHTML",
-      "chunks": [
-        "webpack:webpack",
-        "main-app:main-app"
+        "app/layout:app/layout"
       ],
       "async": false
     }
@@ -975,162 +592,6 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app/layout:app/layout"
-      ],
-      "async": false
-    }
-  },
-  "/Users/eric/Desktop/codebase/OpenTableClone/node_modules/next/dist/client/link.js": {
-    "": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    }
-  },
-  "/Users/eric/Desktop/codebase/OpenTableClone/node_modules/next/dist/esm/client/link.js": {
-    "": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    }
-  },
-  "/Users/eric/Desktop/codebase/OpenTableClone/app/components/SearchBar.tsx": {
-    "": {
-      "id": "(app-client)/./app/components/SearchBar.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./app/components/SearchBar.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./app/components/SearchBar.tsx",
-      "name": "default",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    }
-  },
-  "/Users/eric/Desktop/codebase/OpenTableClone/app/user-profile/[id]/components/BookingCard.tsx": {
-    "": {
-      "id": "(app-client)/./app/user-profile/[id]/components/BookingCard.tsx",
-      "name": "",
-      "chunks": [
-        "app/user-profile/[id]/page:app/user-profile/[id]/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./app/user-profile/[id]/components/BookingCard.tsx",
-      "name": "*",
-      "chunks": [
-        "app/user-profile/[id]/page:app/user-profile/[id]/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./app/user-profile/[id]/components/BookingCard.tsx",
-      "name": "default",
-      "chunks": [
-        "app/user-profile/[id]/page:app/user-profile/[id]/page"
-      ],
-      "async": false
-    }
-  },
-  "/Users/eric/Desktop/codebase/OpenTableClone/app/user-profile/[id]/components/ReviewCard.tsx": {
-    "": {
-      "id": "(app-client)/./app/user-profile/[id]/components/ReviewCard.tsx",
-      "name": "",
-      "chunks": [
-        "app/user-profile/[id]/page:app/user-profile/[id]/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./app/user-profile/[id]/components/ReviewCard.tsx",
-      "name": "*",
-      "chunks": [
-        "app/user-profile/[id]/page:app/user-profile/[id]/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./app/user-profile/[id]/components/ReviewCard.tsx",
-      "name": "default",
-      "chunks": [
-        "app/user-profile/[id]/page:app/user-profile/[id]/page"
-      ],
-      "async": false
-    }
-  },
-  "/Users/eric/Desktop/codebase/OpenTableClone/app/user-profile/[id]/components/UserInfo.tsx": {
-    "": {
-      "id": "(app-client)/./app/user-profile/[id]/components/UserInfo.tsx",
-      "name": "",
-      "chunks": [
-        "app/user-profile/[id]/page:app/user-profile/[id]/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./app/user-profile/[id]/components/UserInfo.tsx",
-      "name": "*",
-      "chunks": [
-        "app/user-profile/[id]/page:app/user-profile/[id]/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./app/user-profile/[id]/components/UserInfo.tsx",
-      "name": "default",
-      "chunks": [
-        "app/user-profile/[id]/page:app/user-profile/[id]/page"
       ],
       "async": false
     }
@@ -1339,136 +800,6 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app-client-internals:app-client-internals"
-      ],
-      "async": false
-    }
-  },
-  "/Users/eric/Desktop/codebase/OpenTableClone/public/icons/empty-star.png": {
-    "": {
-      "id": "(app-client)/./public/icons/empty-star.png",
-      "name": "",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./public/icons/empty-star.png",
-      "name": "*",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./public/icons/empty-star.png",
-      "name": "default",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    }
-  },
-  "/Users/eric/Desktop/codebase/OpenTableClone/public/icons/full-star.png": {
-    "": {
-      "id": "(app-client)/./public/icons/full-star.png",
-      "name": "",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./public/icons/full-star.png",
-      "name": "*",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./public/icons/full-star.png",
-      "name": "default",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    }
-  },
-  "/Users/eric/Desktop/codebase/OpenTableClone/public/icons/half-star.png": {
-    "": {
-      "id": "(app-client)/./public/icons/half-star.png",
-      "name": "",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./public/icons/half-star.png",
-      "name": "*",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./public/icons/half-star.png",
-      "name": "default",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    }
-  },
-  "/Users/eric/Desktop/codebase/OpenTableClone/node_modules/next/dist/client/image.js": {
-    "": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "*",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "default",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    }
-  },
-  "/Users/eric/Desktop/codebase/OpenTableClone/node_modules/next/dist/esm/client/image.js": {
-    "": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "*",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "default",
-      "chunks": [
-        "app/page:app/page"
       ],
       "async": false
     }

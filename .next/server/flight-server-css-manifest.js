@@ -3,10 +3,6 @@ self.__RSC_CSS_MANIFEST={
     "/Users/eric/Desktop/codebase/OpenTableClone/app/page": [
       "/Users/eric/Desktop/codebase/OpenTableClone/app/globals.css",
       "/Users/eric/Desktop/codebase/OpenTableClone/node_modules/react-datepicker/dist/react-datepicker.css"
-    ],
-    "/Users/eric/Desktop/codebase/OpenTableClone/app/user-profile/[id]/page": [
-      "/Users/eric/Desktop/codebase/OpenTableClone/app/globals.css",
-      "/Users/eric/Desktop/codebase/OpenTableClone/node_modules/react-datepicker/dist/react-datepicker.css"
     ]
   },
   "/Users/eric/Desktop/codebase/OpenTableClone/app/layout.tsx": [
